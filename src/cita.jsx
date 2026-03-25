@@ -10,3 +10,5 @@ function cita() {
         </div>
     );
 }
+
+export default cita
