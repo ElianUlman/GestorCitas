@@ -1,11 +1,11 @@
-import { useState } from 'react'
+import Formulario from './Formulario.jsx' 
 import './App.css'
 
 function App() {
 
   return (
     <>
-      
+      <Formulario/>
     </>
   )
 }
