@@ -1,4 +1,4 @@
-function cita() {
+function Cita() {
     return (
 
         <div class="cita">

@@ -1,12 +1,12 @@
-import cita from "./cita"
+import Cita from "./cita"
 
-function lista() {
+function Lista() {
 
     const citas = []
 
     for (let i = 0; i < 3; i++) {
 
-        citas.push(cita())
+        citas.push(Cita())
     }
 
     return (
