@@ -6,7 +6,7 @@ function Lista() {
 
     for (let i = 0; i < 3; i++) {
 
-        citas.push(<Cita />)
+        citas.push(<Cita key = {i}/>)
     }
 
     return (
