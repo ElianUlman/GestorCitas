@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import lista from './lista'
+import Lista from './lista'
 import './App.css'
 
 function App() {
