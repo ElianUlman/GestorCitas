@@ -10,7 +10,7 @@ function Lista() {
     }
 
     return (
-        <div class="one-half column">
+        <div className ="one-half column">
             <h2>Administra tus citas</h2>
             
             {citas}
@@ -18,4 +18,4 @@ function Lista() {
     );
 }
 
-export default lista
+export default Lista
