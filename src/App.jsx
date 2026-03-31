@@ -5,7 +5,14 @@ function App() {
 
   return (
     <>
-      <Formulario/>
+    
+      <h1>ADMINISTRADOR DE PACIENTES</h1>
+      <div className="container">
+        <div className="row">
+      <Formulario/>    
+
+      </div>
+      </div>  
     </>
   )
 }
