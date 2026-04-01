@@ -1,12 +1,19 @@
 import { useState } from 'react'
-import Lista from './lista'
 import './App.css'
+import Formulario from './Formulario.jsx' 
+import Lista from './lista'
 
 function App() {
 
   return (
     <>
-      <Lista />
+      <h1>ADMINISTRADOR DE PACIENTES</h1 >
+      <div className="container">
+        <div className="row">
+          <Formulario />
+          <Lista />
+        </div>
+      </div>
 
     </>
   )
