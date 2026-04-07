@@ -1,19 +1,16 @@
 import Cita from "./cita"
 
-function Lista() {
+function Lista({ citas }) {
 
-    const citas = []
-
-    for (let i = 0; i < 3; i++) {
-
-        citas.push(<Cita key = {i}/>)
-    }
+    const listaCitas = citas.map((cita, i) => (
+        <Cita mascota={cita.mascota} propietario={cita.propietario} fecha={cita.fecha} hora={cita.hora} sintomas={cita.sintomas} key={i} />
+    ))
 
     return (
-        <div className ="one-half column">
+        <div className="one-half column">
             <h2>Administra tus citas</h2>
-            
-            {citas}
+
+            {listaCitas}
         </div>
     );
 }

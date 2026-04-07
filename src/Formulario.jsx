@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './Formulario.css'
 
-function Formulario() {
+function Formulario({setCitas}) {
 
     const [cita, setCita] = useState({
         mascota: "",
@@ -13,7 +13,8 @@ function Formulario() {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        //if
+       
+        setCitas(cita)
         setCita("")
 
         console.log(cita)
@@ -48,7 +49,6 @@ function Formulario() {
                 <button type="submit" className="u-full-width button-primary">Agregar Cita</button>
             </form>
         </div>
-
     )
 }
 
